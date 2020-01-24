@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Elevator Script</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script type="text/javascript" src="assets/jquery.js"></script>
+  	<script type="text/javascript" src="assets/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+	<meta charset="utf-8"/>
+</head>
+<body>
+<div class="container container-fluid">
+	<div class="row">
+    <div class="col">
+    </div>
+
+    <div class="col">
+      	<h3 id="title">Which floor are you at?</h3>
+      	<br>
+
+		<input id = "floorInput" type = "number" maxlength="1" min="1" max="7" placeholder="Floors 1 to 7">
+		<br>
+
+		<button id="callButton" class="btn btn-success">Call The Elevator</button>
+		<br>
+
+
+		<div class="card" style="width: 14rem;">
+	  		<div class="card-header">
+	    		<strong>Position of First Elevator: </strong>
+				<p style="font-weight: bold" id="firstElevator"></p> 
+	  		</div>
+	  		<div class="card-header">
+	    		<strong>Position of Second Elevator: </strong>
+				<p style="font-weight: bold" id="secondElevator"></p>
+	  		</div>
+	  			<ul class="list-group list-group-flush">
+	    			<li class="list-group-item">
+	    				<p>Status of First Elevator: </p>
+						<p id="firstElevatorStatus" style="font-weight: bold;">STILL</p>
+	    			</li>
+	    			<li class="list-group-item">
+	    				<p>Status of Second Elevator: </p>
+						<p id="secondElevatorStatus" style="font-weight: bold">STILL</p>
+	    			</li>
+	  			</ul>
+		</div>
+    </div>
+
+    <div class="col">
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html> 
+
+
+<!--  <div style="justify-content: center; display: flex; flex-direction: row;">
+	<div style="min-width: 200px; background-color: #ccc;">&nbsp;</div>
+	<div style="min-width: 200px; background-color: #ede;">&nbsp;</div>
+</div>
+<div style="justify-content: center; display: flex; flex-direction: row;">
+	<div style="min-width: 200px; background-color: #ccc;">&nbsp;</div>
+	<div style="min-width: 200px; background-color: #ede;">&nbsp;</div>
+</div>
+<div style="justify-content: center; display: flex; flex-direction: row;">
+	<div style="min-width: 200px; background-color: #ccc;">&nbsp;</div>
+	<div style="min-width: 200px; background-color: #ede;">&nbsp;</div>
+</div>
+<div style="justify-content: center; display: flex; flex-direction: row;">
+	<div style="min-width: 200px; background-color: #ccc;">&nbsp;</div>
+	<div style="min-width: 200px; background-color: #ede;">&nbsp;</div>
+</div>
+<div style="justify-content: center; display: flex; flex-direction: row;">
+	<div style="min-width: 200px; background-color: #ccc;">&nbsp;</div>
+	<div style="min-width: 200px; background-color: #ede;">&nbsp;</div>
+</div>
+<div style="justify-content: center; display: flex; flex-direction: row;">
+	<div style="min-width: 200px; background-color: #ccc;">&nbsp;</div>
+	<div style="min-width: 200px; background-color: #ede;">&nbsp;</div>
+</div>
+<div style="justify-content: center; display: flex; flex-direction: row;">
+	<div style="min-width: 200px; background-color: #ccc;">&nbsp;</div>
+	<div style="min-width: 200px; background-color: #ede;">&nbsp;</div>
+</div>
+
+<div style="justify-content: center; display: flex; flex-direction: row">
+	<div style="display: flex; flex-direction: column; min-width: 200px">asd</div>
+	<div style="display: flex; flex-direction: column; min-width: 200px">asd</div>
+</div> -->

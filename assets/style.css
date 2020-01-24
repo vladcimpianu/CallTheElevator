@@ -1,0 +1,34 @@
+body {
+	background: #bdc3c7;
+	background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7); 
+	background: linear-gradient(to right, #2c3e50, #bdc3c7);
+	font-family: "Nunito", sans-serif;
+}
+
+#title {
+	margin-top: 1rem;
+	color: #2c3e50;
+	background: #FFEFBA;
+	background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+	background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+	border-radius: 6px;
+	width: 14rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+#floorInput {
+	width: 8rem;
+	margin-left: 3rem;
+} 
+
+.btn-success {
+	width: 8rem;
+	padding: 1rem;
+	margin: 1rem 3rem;
+	color: #bdc3c7;
+}
+
+.card {
+	color: #2c3e50;
+}
